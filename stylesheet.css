@@ -1089,13 +1089,13 @@ audio {
 }
 @media (max-width: 768px) {
   .balloons {
-    width: 33.33%; /* 2-3 balloons per row on mobile */
+    width: 20%; /* 2-3 balloons per row on mobile */
   }
 }
 .balloons h2 {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
-	font-size: 50px;
+	font-size: 20px;
 	color: #BF4136;
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
