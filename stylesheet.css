@@ -1089,7 +1089,12 @@ audio {
 }
 @media (max-width: 768px) {
   .balloons {
-    width: 20%; /* 2-3 balloons per row on mobile */
+        height: 75px;
+    width: 84px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
   }
 }
 .balloons h2 {
