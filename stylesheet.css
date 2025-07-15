@@ -1080,10 +1080,17 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 100px;
+	  width: 16.66%; /* 6 balloons in a row */
+  box-sizing: border-box;
+  padding: 5px;
 	height: 183px;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
+}
+@media (max-width: 768px) {
+  .balloons {
+    width: 33.33%; /* 2-3 balloons per row on mobile */
+  }
 }
 .balloons h2 {
 	text-transform: uppercase;
